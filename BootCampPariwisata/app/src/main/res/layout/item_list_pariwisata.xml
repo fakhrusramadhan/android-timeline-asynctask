@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ll_item_list_pariwisata"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_pallet_white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/grayLigt"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_image_list_pariwisata"/>
+
+            <ProgressBar
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/pb_progress_image_list_pariwisata"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_name_list_pariwisata"
+            android:gravity="center"
+            android:id="@+id/tv_title_list_pariwisata"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_address_list_pariwisata"
+            android:gravity="center"
+            android:textColor="@color/blueTurquoise"
+            android:id="@+id/tv_address_list_pariwisata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_detail_list_pariwisata"
+            android:layout_marginTop="10dp"
+            android:maxLines="5"
+            android:maxLength="350"
+            android:ellipsize="end"
+            android:id="@+id/tv_detail_list_pariwisata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

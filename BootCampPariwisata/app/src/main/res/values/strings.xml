@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Go Traveling</string>
+    <string name="title_login">Login</string>
+    <string name="title_splash_screen">GO TRAVELING</string>
+    <string name="title_list_pariwisata">Daftar Pariwisata</string>
+    <string name="title_detail_pariwisata">Detail Pariwisata</string>
+    <string name="txt_deskripsi_pariwisata">Deskripsi Tempat Wisata</string>
+    <string name="txt_peta_lokasi">Peta Lokasi Wisata</string>
+    <string name="txt_pariwisata_terdekat">Pariwisata Terdekat</string>
+    <string name="txt_loading">Sedang Memuat ...</string>
+    <string name="txt_no_connection">Periksa Kembali Koneksi Anda \n Usap Layar Ke Bawah Untuk Refresh</string>
+    <string name="txt_name_list_pariwisata">Candi Prambanan Yogyakarta</string>
+    <string name="txt_address_list_pariwisata">Jl. Jogja-Solo Km. 16 Prambanan, Yogyakarta INDONESIA</string>
+    <string name="txt_detail_list_pariwisata">Candi Prambanan terletak di lingkungan Taman Wisata Prambanan,
+                                                    kurang lebih 17 km ke arah timur dari Yogyakarta, tepatnya di Desa Prambanan
+                                                    Kecamatan Bokoharjo.</string>
+
+
+</resources>
